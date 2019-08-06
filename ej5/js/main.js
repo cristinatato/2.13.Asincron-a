@@ -1,5 +1,7 @@
 'use strict';
 
+'use strict';
+
 const container= document.querySelector('.container');
 console.log(container);
 let counter = 0;
@@ -18,19 +20,3 @@ const incrementAndShowCounter = () => {
 };
 
 temp = setInterval(incrementAndShowCounter, 1000);
-
-// Para hacerlo de otra forma 
-
-//function contador () {
-//   counter++;
-//   const image = document.createElement('img');
-//   image.classList.add('uva');
-//   image.src = "";
-//   image.alt="";
-//   container.appendChild(image);
-//   if (counter === 12) {
-//     clearInterval(temp);
-//   }
-// }
-
-// temp = setInterval(incrementAndShowCounter, 1000);
